@@ -31,17 +31,15 @@
     <section>
       <h2>Let's do this!</h2>
       <form action="#" id="user-info">
-        <div>
-          <input type="text" id="first-name"><label for="first-name">First Name</label>
-          <input type="text" id="last-name"><label for="last-name">Last Name</label>
+        <div class="column">
+          <label for="first-name">First Name</label><input type="text" id="first-name">
+          <label for="email">Email</label><input type="email" name="email" id="email">
+          <label for="password">Password</label><input type="password" name="password" id="password">
         </div>
-        <div>
-          <input type="email" name="email" id="email"><label for="email">Email</label>
-          <input type="tel" name="telephone" id="telephone"><label for="telephone">Phone Number</label>
-        </div>
-        <div>
-          <input type="password" name="password" id="password"><label for="password">Password</label>
-          <input type="password" name="confirmation" id="confirmation"><label for="confirmation">Confirm Password</label>
+        <div class="column">
+          <label for="last-name">Last Name</label><input type="text" id="last-name">
+          <label for="telephone">Phone Number</label><input type="tel" name="telephone" id="telephone">
+          <label for="confirmation">Confirm Password</label><input type="password" name="confirmation" id="confirmation">
         </div>
       </form>
     </section>

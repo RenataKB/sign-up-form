@@ -83,6 +83,8 @@ aside {
 }
 
 aside footer {
+  position: fixed;
+  bottom: 0;
   width: inherit;
   text-align: center;
   margin: 1rem 0;
@@ -93,18 +95,53 @@ a:link, a:visited {
   color: inherit;
 }
 
-
 main {
   background-color: rgb(240, 240, 240);
   width: 65%;
   height: 100vh;
 }
 
-section {
-  background-color: white;
+main header {
+  padding: 100px 30px 50px 30px;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
+h2 {
+  font-size: clamp(1rem, 1.7vw, 1.5rem);
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+section {
+  background-color: white;
+  padding: 30px;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-variant: small-caps;
+  font-size: clamp(1rem, 1.5vw, 1.4rem);
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 20px;
+  margin-right: 60px;
+  border: 2px solid rgb(240, 240, 240);
+  padding: 5px;
+}
+
+main footer {
+  padding: 30px;
 }
