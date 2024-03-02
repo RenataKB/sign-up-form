@@ -91,12 +91,12 @@ aside footer {
   font-size: 0.8rem;
 }
 
-a:link, a:visited {
+aside footer a:link, aside footer a:visited {
   color: inherit;
 }
 
 main {
-  background-color: rgb(240, 240, 240);
+  background-color: #E5E7EB;
   width: 65%;
   height: 100vh;
 }
@@ -138,10 +138,29 @@ label {
 input {
   margin-bottom: 20px;
   margin-right: 60px;
-  border: 2px solid rgb(240, 240, 240);
+  border: 2px solid #E5E7EB;
   padding: 5px;
 }
 
 main footer {
   padding: 30px;
+}
+
+button {
+  background-color: #596D48;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  font-size: clamp(1rem, 1.5vw, 1.3rem);
+}
+
+p {
+  font-size: clamp(1rem, 1.5vw, 1.3rem);
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+p a:link, p a:visited {
+  color: #596D48;
+  text-decoration: none;
 }
